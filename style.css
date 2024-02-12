@@ -280,6 +280,8 @@ section .title::after {
     color: #fff;
     font-size: 40px;
     margin-right: 55px;
+    display: inline flex;
+    justify-content: center;
 }
 
 .home .home-content .social-icons a:last-child {
@@ -776,6 +778,10 @@ footer span a:hover {
     .home .home-content .text-3 {
         font-size: 35px;
     }
+    .home .home-content .social-icons a {
+        font-size: 35px;
+        margin-right: -20px;
+    }
     .home .home-content a {
         font-size: 23px;
         padding: 10px 30px;
@@ -810,10 +816,14 @@ footer span a:hover {
         padding: 0 23px;
     }
     .home .home-content .text-2 {
-        font-size: 60px;
+        font-size: 70px;
     }
     .home .home-content .text-3 {
-        font-size: 32px;
+        font-size: 35px;
+    }
+    .home .home-content .social-icons a {
+        font-size: 35px;
+        margin-right: -20px;
     }
     .home .home-content a {
         font-size: 20px;
@@ -825,10 +835,14 @@ footer span a:hover {
 
 @media (max-width: 500px) {
     .home .home-content .text-2 {
-        font-size: 50px;
+        font-size: 60px;
     }
     .home .home-content .text-3 {
-        font-size: 27px;
+        font-size: 30px;
+    }
+    .home .home-content .social-icons a {
+        font-size: 30px;
+        margin-right: -30px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text {
